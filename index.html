@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
      <!-- link for my CSS file -->
-    <link rel="stylesheet" href="app.css"> 
+    <link rel="stylesheet" href="./app.css"> 
      <!-- Fonts Stylesheet -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa&family=Koulen&family=Neucha&family=Nova+Cut&family=Righteous&family=Roboto+Condensed:wght@300&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
-<title>NASADAILY</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa&family=Koulen&family=Neucha&family=Nova+Cut&family=Righteous&family=Roboto+Condensed:wght@300&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
+        <title>Nasadaily</title>
 </head>
 <body>
-    <video autoplay loop muted src="./space-infinite.mp4"></video>
+    <video autoplay loop muted src="./videos/space-infinite.mp4"></video>
     
     <!-- header -->
     <header class="mp8 cflex">NASA DAILY</header>
@@ -22,16 +22,19 @@
 <section class="cflex">
     <div class="boxesWrapper"></div>
 
+    <button id="yesBtn">Yesterday</button>
+    <!-- <button onclick="fetchData(today)">Today</button> -->
 <!-- About this site -->
 <div class="footer">
         <div class="mp8">
-        This site is developed to view <a href="https://www.nasa.gov/">NASA</a>'s astronomy picture of the day. 
+        This site is developed to view<a target="_blank" href="https://www.nasa.gov/"> NASA'</a>s astronomy picture of the day. 
         <br> 
-        <a class="mp8" href="mailto:sri@blk.ink"><img class="mailLogo" src="gmail.png"></a>      
+        <a class="mp8" href="mailto:sri@blk.ink"><img class="mailLogo" src="./images/gmail.png"></a>      
     </div>
 </div>
 </section>
 
-<script src="app.js"></script> <!-- link for my JS file -->
+<!-- link for my JS file -->
+<script src="./testapp.js"></script> 
 </body>
 </html>
