@@ -1,5 +1,5 @@
 # nasadaily
-Simple - pure javascript REST API fetch application that fetches data from NASA's API.
+Simple - pure javascript REST API fetch application that fetches data from NASA's API. [Link](https://nasadaily.web.app)
 
 ## Technologies
 
